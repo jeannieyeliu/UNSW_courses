@@ -1,0 +1,21 @@
+#!/bin/sh
+#12.9
+$ legit.pl init
+Initialized empty legit repository in .legit
+$ echo 1 >a
+$ echo 2 >b
+$ legit.pl add a b
+$ legit.pl commit -m "first commit"
+Committed as commit 0
+$ echo 3 >c
+$ echo 4 >d
+$ legit.pl add c d
+$ legit.pl rm --cached  a c
+$ legit.pl commit -m "second commit"
+Committed as commit 1
+$ legit.pl show 0:a
+1
+$ legit.pl show 1:a
+legit.pl: error: 'a' not found in commit 1
+$ legit.pl show :a
+legit.pl: error: 'a' not found in index
