@@ -1,0 +1,593 @@
+
+/* base styles, feel free to edit */
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    height: 100%;
+    font-family: -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    /*padding: 10px;*/
+    /*min-height: 60px;*/
+
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;transition: height .2s ease-in-out;
+    height: 77px;
+}
+
+footer {
+    border-top: 1px solid rgba(0,0,0,.0975);
+    padding: 10px;
+    background-color:white;
+    min-height: 60px;
+    text-align: right;
+}
+
+.banner > *, footer > * {
+    margin: 10px 25px;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: auto;
+    padding: 5px;
+    display: inline;
+    list-style-type: none;
+    margin-right: 5px;
+}
+
+.post {
+    max-width: 640px;
+    overflow: hidden;
+    margin: 30px auto;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.0975);
+}
+
+.post-title {
+    padding: 20px 40px;
+    margin: 0;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+}
+
+.post-thumb {
+    margin: 0;
+    padding: 3px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid snow;
+}
+
+.post-image {
+    width: 640px;
+    height: 640px;
+}
+
+@media screen and (max-width: 500px) {
+    .post {
+        border: none;
+        border-bottom: 1px solid rgba(0,0,0,.0975);
+        border-top: 1px solid rgba(0,0,0,.0975); 
+        max-height: 60vh;
+    }
+
+    .post-image {
+        max-width: 100%;
+        max-height: 60vh;
+    }
+
+    #feed > * {
+        flex: 1 1 45%;
+        height: auto;
+    }
+}
+
+/* Add your styles here */
+body{
+background-color: #fafafa;
+}
+
+
+.iphone{
+    background-image: url(/images/login_bg.png);
+    background-size: 454px 618px;
+    -webkit-flex-basis: 454px;
+    -ms-flex-preferred-size: 454px;
+    flex-basis: 454px;
+    height: 618px;
+    margin-left: -35px;
+    margin-right: -15px;
+    width: 450px;
+}
+
+.login-screen {
+
+}
+
+.outer{
+    /*border: 1px solid tomato;*/
+    width:700px;
+    display: -webkit-box;
+
+    justify-content: center;
+    margin: 30px auto 0;
+    max-width: 835px;
+    padding-bottom: 44px;
+    width: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.left{
+    /*border: 1px solid lightpink;*/
+    width:300px;
+    height:600px;
+}
+
+.right{
+    width: 340px;
+    height: 600px;
+    margin-left: 110px;
+    margin-top: 40px;
+    /*border: 1px solid pink;*/
+    /*border-radius: 1px;*/
+    padding: 10px 0;
+}
+
+
+.login-screen-img {
+    height: 432px;
+    margin-left: 149px;
+    position: absolute;
+    top: 0;
+    width: 243px;
+    top: 129px;
+}
+
+.top{
+    width: 340px;
+    border: 1px solid #ddd;
+    background: white;
+    min-height: 400px;
+    border-radius: 1px;
+    margin-top: 30px;
+}
+
+div .logo{
+    margin: 42px auto 12px;
+    display: block;
+    overflow: hidden;
+    text-indent: 110%;
+    white-space: nowrap;
+    background-image: url(/images/icons.png);
+    background-size: 447px 386px;
+    background-position: -97px 0;
+    width: 180px;
+    height: 40px;
+}
+
+.login-form{
+    min-height: 180px;
+    margin-top: 20px;
+}
+
+.login-form input{
+    width: 269px;
+    padding: 12px 20px;
+    margin: 8px auto 10px;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+    background: #fafafa;
+    border-radius: 2px;
+}
+
+.login-form form{
+    width: 90%;
+    margin-left: 35px;
+    position: relative;
+}
+
+
+.login-form input:focus {
+    border: 1px solid #bbb;
+    outline: none;
+}
+
+.login-form button{
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    border-radius: 4px;
+    color: #fff;
+    position: relative;
+    width: 270px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.login-form button a{
+    text-decoration: none;
+    color: white;
+}
+.nav-item a, .divAuthorName{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item a:hover, .divAuthorName:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.line-div{
+    display: -webkit-box;
+    margin-top: 18px;
+    margin-left: 40px;
+}
+
+.line-1{
+    background-color: #efefef;
+    height: 1px;
+    width: 100px;
+    margin-top: 7px;
+
+}
+
+.line-2{
+    background-color: #efefef;
+    height: 1px;
+    width: 100px;
+    margin-top: 7px;
+}
+
+.line-or{
+    color: #999;
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+    text-transform: uppercase;
+}
+
+.register{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.register span{
+    color: #262626;
+}
+
+.register a{
+    color: #3897f0;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 780px) {
+    .left {
+        display: none;
+    }
+
+    .right{
+        margin: 0 auto;
+    }
+
+}
+
+.error-msg {
+    color: #ed4956;
+    margin: 0px 10px;
+}
+
+.disappear {
+    display: none;
+}
+
+.banner-left{
+    display: -webkit-box;
+}
+
+.banner-camera{
+    background-image: url(/images/icons2.png);
+    background-size: 241px 213px;
+    background-position: -75px -164px;
+    height: 24px;
+    width: 24px;
+    margin-left: 60px;
+}
+
+.bar {
+    background-color: #262626;
+    height: 28px;
+    margin: 0 16px;
+    width: 1px;
+}
+
+.banner-logo{
+    display: block;
+    overflow: hidden;
+    text-indent: 110%;
+    white-space: nowrap;
+    background-image: url(/images/icons.png);
+    background-size: 241px 213px;
+    background-position: -57px 0;
+    height: 28px;
+    width: 93px;
+}
+
+.divImageOut{
+    margin-bottom: 70px;
+    border: 1px solid #efefef;
+    border-radius: 2px;
+}
+
+.divImageAuthor{
+    height: 65px;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #efefef;
+    color: #262626;
+    text-decoration: none;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: -webkit-box;
+}
+
+.divAuthorName{
+    margin: 5px 10px;
+}
+
+.divImageAuthorAvatar{
+    background-color: #fafafa;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.divImageItself{
+
+}
+
+.divImagePostOption{
+
+}
+
+
+
+.divImageComments{
+}
+
+.large-feed-sub, .divUserPost-sub{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.large-feed{
+    margin-top: 140px;
+    background-color: #fafafa;
+}
+
+.divImageLikes {
+
+}
+
+.likesDiv{
+
+}
+
+.likeOption{
+
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 10px;
+    border: 1px solid #888;
+    width: 50% !important; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.divBelowImage {
+    padding: 15px;
+    /* margin: 10px; */
+    background: white;
+}
+
+.modal-info {
+    margin-bottom: -23px;
+}
+
+.modal-footer {
+    margin-top: 10px;
+}
+
+.form-group {
+    margin-bottom: 0 !important;
+}
+
+.divImageCommentInput input{
+    border: 0;
+    outline: none;
+    width: 460px;
+    padding-top: 10px;
+}
+
+.divImageCommentInput{
+    border-top: 1px solid #eee;
+    margin: 10px 0;
+}
+
+
+.commentAuthor, .divImageWhoLikes {
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 5px;
+    margin-left: -5px;
+    font-size: 14px;
+}
+
+.commentContent{
+    font-size: 14px;
+}
+
+.user-profile{
+    background: #fafafa;
+    padding-top: 50px;
+}
+
+.user-profile-content{
+
+}
+
+.profile-title{
+
+}
+
+.profile-content{
+
+}
+
+.divUserContent{
+    margin: 0 auto;
+    width: 400px;
+}
+
+.followsDiv{
+
+}
+
+.divUserPost{
+
+}
+
+.user-profile-edit-btn{
+
+}
+
+.divUsernameOuter{
+
+}
+
+.modalTitle {
+
+}
+
+.deleteOption {
+    margin-left: 264px;
+    margin-right: 10px;
+}
+
+.profile-content.username {
+    font-size: 32px;
+    color: #262626;
+    font-weight: lighter;
+}
+button#user-profile-edit-btn {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.profile-content.name{
+    font-weight: 600;
+    color: #262626;
+}
+
+span[class='profile-content'] {
+    margin-right: 26px;
+}
+
+#followingNum{
+    cursor: pointer;
+}
+
+.separator {
+    border-bottom: 1px solid #e8e8e8;
+    margin-left: -260px;
+    width: 1000px;
+    margin-top: 29px;
+    margin-bottom: 30px;
+}
+
+.avatar-div {
+    position: fixed;
+    top: 105px;
+    border-radius: 50%;
+    background-color: #fafafa;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    overflow: hidden;
+    /* position: relative; */
+    width: 140px;
+    height: 130px;
+    left: 190px;
+}
+
+.unfollow-btn {
+    margin-left: 400px;
+}

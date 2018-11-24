@@ -1,0 +1,17 @@
+13/10/18     18:00   21:15   put the first real entry in diary.txt (delete this line!)
+12/10/18     15:00   21:15   git clone the project to local directory, set up the environment
+13/10/18     15:00   21:15   the login page css, html
+14/10/18     15:00   21:15   the login page, register page
+15/10/18     15:00   21:15   finished level 1 login function
+16/10/18     15:00   21:15   finished level 2 show likes
+17/10/18     15:00   21:15   finished level 2 show comments
+18/10/18     15:00   21:15   finished level 2 Like user generated content
+19/10/18     15:00   21:15   finished level 2 Post new content
+20/10/18     15:00   21:15   finished level 2 Pagination
+21/10/18     15:00   21:15   finished level 2 Profile
+22/10/18     15:00   21:15   finished level 3 Infinite Scroll
+23/10/18     15:00   21:15   finished level 3 add Comments
+24/10/18     15:00   21:15   finished level 3 Live Update
+25/10/18     15:00   21:15   finished level 3 Update Profile
+26/10/18     15:00   21:15   finished level 3 User Pages ,Follow ,Delete/Update Post
+26/10/18     15:00   2:08    finished level 4 User Pages,Slick UI ,Push Notifications ,Fragment based URL routing

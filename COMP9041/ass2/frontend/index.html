@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Instacram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- You can add your styles and scripts here -->
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/provided.css" />
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" sizes="192x192" href="/images/page_ico.ico">
+    <script type="module" src="src/helpers.js"></script>
+    <script type="module" src="src/api.js"></script>
+</head>
+<body>
+
+<!--login begin-->
+<div class="login-block disappear">
+    <div class="outer">
+        <div class="left">
+            <div class="iphone">
+                <div class="login-screen">
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="top">
+                <div class="logo"><h1 >&nbsp;</h1></div>
+                <div class="login-form">
+                    <form class=""  method="post">
+                        <input id="login_username" placeholder="Enter your username" autocomplete>
+                        <input id="login_password" type="password" placeholder="Password" autocomplete="true">
+                        <div class="error-msg disappear" id="login_err_msg">
+                        </div>
+                        <button id="login_btn" type="button" ><a href="#/feed">Log in</a></button>
+                    </form>
+                </div>
+
+                <div class="line-div">
+                    <div class="line-1"></div>
+                    <div class="line-or">or</div>
+                    <div class="line-2"></div>
+                </div>
+
+                <div class="register">
+                    <span>Don't have an account?</span>
+                    <a id="sign_up_from_log_in">Sign up</a>
+                </div>
+                <div class="register" style="color:#ddd; font-size:14px;">
+                    <span>Dear Tutor: please contact me in case I have missed to submit import files. There's are
+                    a lot of files and I could easily forget something. Tel: 0450539588</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--login end-->
+
+<!-- register begin-->
+<div class="register-block disappear">
+    <div class="outer">
+        <div class="left">
+            <div class="iphone">
+                <div class="login-screen">
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="top">
+                <div class="logo"><h1 >&nbsp;</h1></div>
+                <div class="login-form">
+                    <form class=""  method="post">
+                        <input id="register_email" placeholder="Enter email address" autocomplete>
+                        <input id="register_name" placeholder="Enter your name" autocomplete>
+                        <input id="register_username" placeholder="Enter a user name" autocomplete>
+                        <input id="register_password" type="password" placeholder="Password" autocomplete>
+                        <div class="error-msg disappear" id="register_err_msg">
+                        </div>
+                        <button id="sign_up_btn" type="button">Sign Up</button>
+                    </form>
+                </div>
+
+                <div class="line-div">
+                    <div class="line-1"></div>
+                    <div class="line-or">or</div>
+                    <div class="line-2"></div>
+                </div>
+
+                <div class="register">
+                    <span>Have an account?</span>
+                    <a id="login_from_sign_up">Log in</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- register end-->
+
+
+    <!-- This is an example app structure -->
+<!--main page begin-->
+<div class="main-index-block disappear">
+    <header class='banner disappear' >
+        <!--<h1>Instacram</h1>-->
+        <div class="banner-left">
+            <div class="banner-camera"></div>
+            <div class="bar"></div>
+            <div class="banner-logo"></div>
+        </div>
+        <div style="display: -webkit-box;margin-left: 180px;">
+        <div class="follow-user form-group row">
+            <input id="follow-user-input" class="follow-user-input form-control" placeholder="Follow a user"/>
+            <button type="button" id="follow-user-input-btn" class="disappear">follow</button>
+        </div>
+        <div style="width: 250px;margin-left:20px; padding:5px 0 0 10px">
+            <span id="follow-error" style="color:red;font-size:16px" class=""></span>
+        </div>
+        </div>
+        <ul class='nav'>
+            <!--<li class="nav-item" id="upload-input" >-->
+                <!--&lt;!&ndash;<div>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<label for="upload-input-input">upload image</label>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--</li>-->
+
+            <li style="margin-right:5px" id="go-back-btn"><a href="#/feed" class="btn btn-outline-dark btn-sm"> Back </a></li>
+            <li class='nav-item btn btn-outline-dark btn-sm' id="upload-image">
+                <form style ='display:none'>
+                    <input type="file" id="upload-input-input" style ='display:none' />
+                </form>
+                upload image
+            </li>
+            <li style="margin-right:5px" id="my-profile">
+                <a href="#/profile=me" id="my-profile-a" class="btn btn-outline-dark btn-sm">My Profile</a>
+            </li>
+
+            <li class='' id="log_out_btn"><a href="#/" class="btn btn-outline-dark btn-sm"> Log out</a></li>
+
+        </ul>
+    </header>
+    <main role='main' id="main-index-block-main" class="main-index-block-main disappear">
+        <!-- app goes here --> 
+        <div id='large-feed' class="large-feed">
+            <!-- inject feed data -->
+        </div>
+    </main>
+    <footer id="footer">
+        <p>Instacram example</p>
+    </footer>
+    <script type="module" src="src/main.js"></script>
+
+</div>
+<!--main page end-->
+
+<!-- model begin-->
+<div id="myModal" class="modal ">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modalTitle" id="modalTitle"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <!--<div class="modal-info" id="mode-info"/>-->
+
+    </div>
+
+</div>
+<!-- model end -->
+
+<!-- user profile begin -->
+<div id="user-profile" class="user-profile disappear">
+
+</div>
+<!-- user profile end -->
+</body>
+</html>
