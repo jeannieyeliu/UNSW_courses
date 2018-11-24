@@ -1,0 +1,300 @@
+Paramita:6714_spec_stage2_submit liuye$ python3 train.py
+EPOCH 1 / 50
+loss 0.1356: 100%|███████████████████████| 121/121 [00:04<00:00, 26.77it/s]
+using original LSTMCell time it takes: 5.594924
+EPOCH 2 / 50
+loss 0.1022: 100%|███████████████████████| 121/121 [00:04<00:00, 28.27it/s]
+using original LSTMCell time it takes: 10.387816
+EPOCH 3 / 50
+loss 0.0721: 100%|███████████████████████| 121/121 [00:04<00:00, 16.70it/s]
+using original LSTMCell time it takes: 15.257622000000001
+EPOCH 4 / 50
+loss 0.0664: 100%|███████████████████████| 121/121 [00:04<00:00, 28.39it/s]
+using original LSTMCell time it takes: 20.071309
+EPOCH 5 / 50
+loss 0.0592: 100%|███████████████████████| 121/121 [00:04<00:00, 16.65it/s]
+using original LSTMCell time it takes: 24.891915
+EPOCH 6 / 50
+loss 0.0528: 100%|███████████████████████| 121/121 [00:04<00:00, 12.42it/s]
+using original LSTMCell time it takes: 30.026025
+EPOCH 7 / 50
+loss 0.0450: 100%|███████████████████████| 121/121 [00:05<00:00, 13.06it/s]
+using original LSTMCell time it takes: 35.824393
+EPOCH 8 / 50
+loss 0.0565: 100%|███████████████████████| 121/121 [00:05<00:00, 23.38it/s]
+using original LSTMCell time it takes: 41.058084
+EPOCH 9 / 50
+loss 0.0504: 100%|███████████████████████| 121/121 [00:04<00:00, 16.94it/s]
+using original LSTMCell time it takes: 45.894281
+EPOCH 10 / 50
+loss 0.0599: 100%|███████████████████████| 121/121 [00:04<00:00, 26.01it/s]
+using original LSTMCell time it takes: 51.042275000000004
+EPOCH 11 / 50
+loss 0.0582: 100%|███████████████████████| 121/121 [00:04<00:00, 27.87it/s]
+using original LSTMCell time it takes: 55.888452
+EPOCH 12 / 50
+loss 0.0328: 100%|███████████████████████| 121/121 [00:04<00:00, 28.23it/s]
+using original LSTMCell time it takes: 60.684505
+EPOCH 13 / 50
+loss 0.0255: 100%|███████████████████████| 121/121 [00:05<00:00, 24.12it/s]
+using original LSTMCell time it takes: 65.84600999999999
+EPOCH 14 / 50
+loss 0.0385: 100%|███████████████████████| 121/121 [00:05<00:00, 22.70it/s]
+using original LSTMCell time it takes: 70.804188
+EPOCH 15 / 50
+loss 0.0217: 100%|███████████████████████| 121/121 [00:03<00:00, 32.52it/s]
+using original LSTMCell time it takes: 75.01006
+EPOCH 16 / 50
+loss 0.0302: 100%|███████████████████████| 121/121 [00:03<00:00, 17.78it/s]
+using original LSTMCell time it takes: 79.283362
+EPOCH 17 / 50
+loss 0.0512: 100%|███████████████████████| 121/121 [00:04<00:00, 29.60it/s]
+using original LSTMCell time it takes: 83.75840799999999
+EPOCH 18 / 50
+loss 0.0168: 100%|███████████████████████| 121/121 [00:03<00:00, 18.92it/s]
+using original LSTMCell time it takes: 87.977655
+EPOCH 19 / 50
+loss 0.0206: 100%|███████████████████████| 121/121 [00:03<00:00, 32.34it/s]
+using original LSTMCell time it takes: 92.21857299999999
+EPOCH 20 / 50
+loss 0.0327: 100%|███████████████████████| 121/121 [00:03<00:00, 18.35it/s]
+using original LSTMCell time it takes: 96.58698899999999
+EPOCH 21 / 50
+loss 0.0291: 100%|███████████████████████| 121/121 [00:03<00:00, 18.89it/s]
+using original LSTMCell time it takes: 100.79231399999999
+EPOCH 22 / 50
+loss 0.0262: 100%|███████████████████████| 121/121 [00:03<00:00, 31.88it/s]
+using original LSTMCell time it takes: 105.054013
+EPOCH 23 / 50
+loss 0.0196: 100%|███████████████████████| 121/121 [00:03<00:00, 31.60it/s]
+using original LSTMCell time it takes: 109.34643899999999
+EPOCH 24 / 50
+loss 0.0419: 100%|███████████████████████| 121/121 [00:03<00:00, 31.93it/s]
+using original LSTMCell time it takes: 113.61502399999999
+EPOCH 25 / 50
+loss 0.0264: 100%|███████████████████████| 121/121 [00:03<00:00, 17.47it/s]
+using original LSTMCell time it takes: 117.887203
+EPOCH 26 / 50
+loss 0.0120: 100%|███████████████████████| 121/121 [00:03<00:00, 32.60it/s]
+using original LSTMCell time it takes: 122.06838099999999
+EPOCH 27 / 50
+loss 0.0166: 100%|███████████████████████| 121/121 [00:03<00:00, 33.91it/s]
+using original LSTMCell time it takes: 126.00701
+EPOCH 28 / 50
+loss 0.0120: 100%|███████████████████████| 121/121 [00:03<00:00, 20.07it/s]
+using original LSTMCell time it takes: 129.80959199999998
+EPOCH 29 / 50
+loss 0.0329: 100%|███████████████████████| 121/121 [00:03<00:00, 19.21it/s]
+using original LSTMCell time it takes: 133.634884
+EPOCH 30 / 50
+loss 0.0162: 100%|███████████████████████| 121/121 [00:03<00:00, 35.01it/s]
+using original LSTMCell time it takes: 137.46514
+EPOCH 31 / 50
+loss 0.0114: 100%|███████████████████████| 121/121 [00:03<00:00, 35.05it/s]
+using original LSTMCell time it takes: 141.29713999999998
+EPOCH 32 / 50
+loss 0.0111: 100%|███████████████████████| 121/121 [00:03<00:00, 35.57it/s]
+using original LSTMCell time it takes: 145.06707699999998
+EPOCH 33 / 50
+loss 0.0269: 100%|███████████████████████| 121/121 [00:03<00:00, 35.56it/s]
+using original LSTMCell time it takes: 148.837977
+EPOCH 34 / 50
+loss 0.0075: 100%|███████████████████████| 121/121 [00:03<00:00, 34.87it/s]
+using original LSTMCell time it takes: 152.686577
+EPOCH 35 / 50
+loss 0.0066: 100%|███████████████████████| 121/121 [00:03<00:00, 32.41it/s]
+using original LSTMCell time it takes: 156.78214699999998
+EPOCH 36 / 50
+loss 0.0249: 100%|███████████████████████| 121/121 [00:04<00:00, 27.02it/s]
+using original LSTMCell time it takes: 161.520465
+EPOCH 37 / 50
+loss 0.0057: 100%|███████████████████████| 121/121 [00:04<00:00, 26.23it/s]
+using original LSTMCell time it takes: 166.567586
+EPOCH 38 / 50
+loss 0.0070: 100%|███████████████████████| 121/121 [00:04<00:00, 25.42it/s]
+using original LSTMCell time it takes: 171.750539
+EPOCH 39 / 50
+loss 0.0143: 100%|███████████████████████| 121/121 [00:04<00:00, 15.16it/s]
+using original LSTMCell time it takes: 177.025591
+EPOCH 40 / 50
+loss 0.0037: 100%|███████████████████████| 121/121 [00:05<00:00, 14.31it/s]
+using original LSTMCell time it takes: 182.414144
+EPOCH 41 / 50
+loss 0.0055: 100%|███████████████████████| 121/121 [00:04<00:00, 15.42it/s]
+using original LSTMCell time it takes: 187.545595
+EPOCH 42 / 50
+loss 0.0181: 100%|███████████████████████| 121/121 [00:04<00:00, 14.46it/s]
+using original LSTMCell time it takes: 192.69038799999998
+EPOCH 43 / 50
+loss 0.0119: 100%|███████████████████████| 121/121 [00:04<00:00, 15.49it/s]
+using original LSTMCell time it takes: 197.86521399999998
+EPOCH 44 / 50
+loss 0.0095: 100%|███████████████████████| 121/121 [00:04<00:00, 15.52it/s]
+using original LSTMCell time it takes: 202.926389
+EPOCH 45 / 50
+loss 0.0064: 100%|███████████████████████| 121/121 [00:04<00:00, 13.26it/s]
+using original LSTMCell time it takes: 208.122678
+EPOCH 46 / 50
+loss 0.0176: 100%|███████████████████████| 121/121 [00:04<00:00, 25.18it/s]
+using original LSTMCell time it takes: 213.315351
+EPOCH 47 / 50
+loss 0.0009: 100%|███████████████████████| 121/121 [00:04<00:00, 24.68it/s]
+using original LSTMCell time it takes: 218.59474699999998
+EPOCH 48 / 50
+loss 0.0095: 100%|███████████████████████| 121/121 [00:04<00:00, 25.24it/s]
+using original LSTMCell time it takes: 223.837602
+EPOCH 49 / 50
+loss 0.0067: 100%|███████████████████████| 121/121 [00:04<00:00, 15.00it/s]
+using original LSTMCell time it takes: 229.04056699999998
+EPOCH 50 / 50
+Paramita:6714_spec_stage2_submit liuye$ python3 train.py
+EPOCH 1 / 50
+loss 0.1399: 100%|███████████████████████| 121/121 [00:04<00:00, 16.32it/s]
+using modified LSTMCell time it takes: 5.524145
+EPOCH 2 / 50
+loss 0.1145: 100%|███████████████████████| 121/121 [00:04<00:00, 27.64it/s]
+using modified LSTMCell time it takes: 10.41147
+EPOCH 3 / 50
+loss 0.1020: 100%|███████████████████████| 121/121 [00:04<00:00, 25.76it/s]
+using modified LSTMCell time it takes: 15.513710999999999
+EPOCH 4 / 50
+loss 0.0951: 100%|███████████████████████| 121/121 [00:04<00:00, 16.37it/s]
+using modified LSTMCell time it takes: 20.480043000000002
+EPOCH 5 / 50
+loss 0.0683: 100%|███████████████████████| 121/121 [00:04<00:00, 15.25it/s]
+using modified LSTMCell time it takes: 25.509905000000003
+EPOCH 6 / 50
+loss 0.0510: 100%|███████████████████████| 121/121 [00:04<00:00, 15.98it/s]
+using modified LSTMCell time it takes: 30.447445000000002
+EPOCH 7 / 50
+loss 0.0502: 100%|███████████████████████| 121/121 [00:04<00:00, 15.00it/s]
+using modified LSTMCell time it takes: 35.477384
+EPOCH 8 / 50
+loss 0.0649: 100%|███████████████████████| 121/121 [00:04<00:00, 17.38it/s]
+using modified LSTMCell time it takes: 40.186406000000005
+EPOCH 9 / 50
+loss 0.0446: 100%|███████████████████████| 121/121 [00:03<00:00, 32.41it/s]
+using modified LSTMCell time it takes: 44.404083
+EPOCH 10 / 50
+loss 0.0665: 100%|███████████████████████| 121/121 [00:03<00:00, 18.76it/s]
+using modified LSTMCell time it takes: 48.602138000000004
+EPOCH 11 / 50
+loss 0.0506: 100%|███████████████████████| 121/121 [00:03<00:00, 31.55it/s]
+using modified LSTMCell time it takes: 52.915397
+EPOCH 12 / 50
+loss 0.0540: 100%|███████████████████████| 121/121 [00:03<00:00, 32.27it/s]
+using modified LSTMCell time it takes: 57.148026
+EPOCH 13 / 50
+loss 0.0351: 100%|███████████████████████| 121/121 [00:03<00:00, 32.06it/s]
+using modified LSTMCell time it takes: 61.415688
+EPOCH 14 / 50
+loss 0.0416: 100%|███████████████████████| 121/121 [00:03<00:00, 32.55it/s]
+using modified LSTMCell time it takes: 65.62771199999999
+EPOCH 15 / 50
+loss 0.0237: 100%|███████████████████████| 121/121 [00:03<00:00, 31.21it/s]
+using modified LSTMCell time it takes: 69.963256
+EPOCH 16 / 50
+loss 0.0272: 100%|███████████████████████| 121/121 [00:03<00:00, 32.18it/s]
+using modified LSTMCell time it takes: 74.20962399999999
+EPOCH 17 / 50
+loss 0.0552: 100%|███████████████████████| 121/121 [00:03<00:00, 18.72it/s]
+using modified LSTMCell time it takes: 78.415914
+EPOCH 18 / 50
+loss 0.0192: 100%|███████████████████████| 121/121 [00:03<00:00, 17.81it/s]
+using modified LSTMCell time it takes: 82.76486
+EPOCH 19 / 50
+loss 0.0336: 100%|███████████████████████| 121/121 [00:03<00:00, 32.27it/s]
+using modified LSTMCell time it takes: 86.980531
+EPOCH 20 / 50
+loss 0.0341: 100%|███████████████████████| 121/121 [00:03<00:00, 34.85it/s]
+using modified LSTMCell time it takes: 90.83197899999999
+EPOCH 21 / 50
+loss 0.0181: 100%|███████████████████████| 121/121 [00:03<00:00, 35.85it/s]
+using modified LSTMCell time it takes: 94.56405799999999
+EPOCH 22 / 50
+loss 0.0360: 100%|███████████████████████| 121/121 [00:03<00:00, 18.70it/s]
+using modified LSTMCell time it takes: 98.45205999999999
+EPOCH 23 / 50
+loss 0.0258: 100%|███████████████████████| 121/121 [00:04<00:00, 15.96it/s]
+using modified LSTMCell time it takes: 103.261674
+EPOCH 24 / 50
+loss 0.0214: 100%|███████████████████████| 121/121 [00:06<00:00,  7.97it/s]
+using modified LSTMCell time it takes: 109.196698
+EPOCH 25 / 50
+loss 0.0292: 100%|███████████████████████| 121/121 [00:06<00:00, 17.83it/s]
+using modified LSTMCell time it takes: 115.341487
+EPOCH 26 / 50
+loss 0.0210: 100%|███████████████████████| 121/121 [00:06<00:00, 20.08it/s]
+using modified LSTMCell time it takes: 121.29535999999999
+EPOCH 27 / 50
+loss 0.0341: 100%|███████████████████████| 121/121 [00:06<00:00,  9.02it/s]
+using modified LSTMCell time it takes: 127.48680599999999
+EPOCH 28 / 50
+loss 0.0168: 100%|███████████████████████| 121/121 [00:04<00:00, 15.06it/s]
+using modified LSTMCell time it takes: 132.57702700000002
+EPOCH 29 / 50
+loss 0.0235: 100%|███████████████████████| 121/121 [00:04<00:00, 14.77it/s]
+using modified LSTMCell time it takes: 137.892572
+EPOCH 30 / 50
+loss 0.0284: 100%|███████████████████████| 121/121 [00:04<00:00, 25.07it/s]
+using modified LSTMCell time it takes: 143.122354
+EPOCH 31 / 50
+loss 0.0137: 100%|███████████████████████| 121/121 [00:04<00:00, 25.52it/s]
+using modified LSTMCell time it takes: 148.335203
+EPOCH 32 / 50
+loss 0.0081: 100%|███████████████████████| 121/121 [00:04<00:00, 25.29it/s]
+using modified LSTMCell time it takes: 153.54183600000002
+EPOCH 33 / 50
+loss 0.0554: 100%|███████████████████████| 121/121 [00:04<00:00, 26.17it/s]
+using modified LSTMCell time it takes: 158.644517
+EPOCH 34 / 50
+loss 0.0133: 100%|███████████████████████| 121/121 [00:04<00:00, 15.88it/s]
+using modified LSTMCell time it takes: 163.543743
+EPOCH 35 / 50
+loss 0.0114: 100%|███████████████████████| 121/121 [00:04<00:00, 16.31it/s]
+using modified LSTMCell time it takes: 168.481061
+EPOCH 36 / 50
+loss 0.0345: 100%|███████████████████████| 121/121 [00:04<00:00, 16.11it/s]
+using modified LSTMCell time it takes: 173.50635300000002
+EPOCH 37 / 50
+loss 0.0079: 100%|███████████████████████| 121/121 [00:04<00:00, 26.53it/s]
+using modified LSTMCell time it takes: 178.584785
+EPOCH 38 / 50
+loss 0.0121: 100%|███████████████████████| 121/121 [00:04<00:00, 15.12it/s]
+using modified LSTMCell time it takes: 183.756952
+EPOCH 39 / 50
+loss 0.0240: 100%|███████████████████████| 121/121 [00:04<00:00, 26.54it/s]
+using modified LSTMCell time it takes: 188.823562
+EPOCH 40 / 50
+loss 0.0108: 100%|███████████████████████| 121/121 [00:04<00:00, 16.21it/s]
+using modified LSTMCell time it takes: 193.68476800000002
+EPOCH 41 / 50
+loss 0.0193: 100%|███████████████████████| 121/121 [00:04<00:00, 16.14it/s]
+using modified LSTMCell time it takes: 198.66035000000002
+EPOCH 42 / 50
+loss 0.0310: 100%|███████████████████████| 121/121 [00:04<00:00, 26.95it/s]
+using modified LSTMCell time it takes: 203.626785
+EPOCH 43 / 50
+loss 0.0252: 100%|███████████████████████| 121/121 [00:04<00:00, 26.78it/s]
+using modified LSTMCell time it takes: 208.663102
+EPOCH 44 / 50
+loss 0.0228: 100%|███████████████████████| 121/121 [00:04<00:00, 15.53it/s]
+using modified LSTMCell time it takes: 214.041402
+EPOCH 45 / 50
+loss 0.0125: 100%|███████████████████████| 121/121 [00:04<00:00, 26.50it/s]
+using modified LSTMCell time it takes: 219.109152
+EPOCH 46 / 50
+loss 0.0194: 100%|███████████████████████| 121/121 [00:04<00:00, 15.39it/s]
+using modified LSTMCell time it takes: 224.03424800000002
+EPOCH 47 / 50
+loss 0.0018: 100%|███████████████████████| 121/121 [00:04<00:00, 25.74it/s]
+using modified LSTMCell time it takes: 229.165277
+EPOCH 48 / 50
+loss 0.0075: 100%|███████████████████████| 121/121 [00:04<00:00, 14.79it/s]
+using modified LSTMCell time it takes: 234.2671
+EPOCH 49 / 50
+loss 0.0160: 100%|███████████████████████| 121/121 [00:04<00:00, 14.26it/s]
+using modified LSTMCell time it takes: 239.358486
+EPOCH 50 / 50
+loss 0.0021: 100%|███████████████████████| 121/121 [00:04<00:00, 25.43it/s]
+using modified LSTMCell time it takes: 244.531132

@@ -1,0 +1,150 @@
+EPOCH 1 / 50
+loss 0.1243: 100%|█████████████████████| 121/121 [01:06<00:00,  2.91s/it]
+using modified char embedding time it takes: 67.04993300000001
+EPOCH 2 / 50
+loss 0.0920: 100%|█████████████████████| 121/121 [01:03<00:00,  2.31s/it]
+using modified char embedding time it takes: 130.856147
+EPOCH 3 / 50
+loss 0.0722: 100%|█████████████████████| 121/121 [01:07<00:00,  2.64s/it]
+using modified char embedding time it takes: 198.063366
+EPOCH 4 / 50
+loss 0.0555: 100%|█████████████████████| 121/121 [01:04<00:00,  2.32s/it]
+using modified char embedding time it takes: 261.581611
+EPOCH 5 / 50
+loss 0.0547: 100%|█████████████████████| 121/121 [01:02<00:00,  2.54s/it]
+using modified char embedding time it takes: 324.876435
+EPOCH 6 / 50
+loss 0.0656: 100%|█████████████████████| 121/121 [01:05<00:00,  2.55s/it]
+using modified char embedding time it takes: 390.669665
+EPOCH 7 / 50
+loss 0.0564: 100%|█████████████████████| 121/121 [01:05<00:00,  2.43s/it]
+using modified char embedding time it takes: 456.43681200000003
+EPOCH 8 / 50
+loss 0.0434: 100%|█████████████████████| 121/121 [01:07<00:00,  2.86s/it]
+using modified char embedding time it takes: 523.638158
+EPOCH 9 / 50
+loss 0.0363: 100%|█████████████████████| 121/121 [01:10<00:00,  2.65s/it]
+using modified char embedding time it takes: 592.3258900000001
+EPOCH 10 / 50
+loss 0.0315: 100%|█████████████████████| 121/121 [01:06<00:00,  2.52s/it]
+using modified char embedding time it takes: 659.039171
+EPOCH 11 / 50
+loss 0.0403: 100%|█████████████████████| 121/121 [01:05<00:00,  2.49s/it]
+using modified char embedding time it takes: 725.290191
+EPOCH 12 / 50
+loss 0.0149: 100%|█████████████████████| 121/121 [01:03<00:00,  2.47s/it]
+using modified char embedding time it takes: 789.0272630000001
+EPOCH 13 / 50
+loss 0.0380: 100%|█████████████████████| 121/121 [01:09<00:00,  2.66s/it]
+using modified char embedding time it takes: 857.6412
+EPOCH 14 / 50
+loss 0.0150: 100%|█████████████████████| 121/121 [01:04<00:00,  2.50s/it]
+using modified char embedding time it takes: 922.270245
+EPOCH 15 / 50
+loss 0.0181: 100%|█████████████████████| 121/121 [01:06<00:00,  2.56s/it]
+using modified char embedding time it takes: 989.631074
+EPOCH 16 / 50
+loss 0.0576: 100%|█████████████████████| 121/121 [01:04<00:00,  2.41s/it]
+using modified char embedding time it takes: 1055.018795
+EPOCH 17 / 50
+loss 0.0098: 100%|█████████████████████| 121/121 [01:04<00:00,  2.47s/it]
+using modified char embedding time it takes: 1120.3381769999999
+EPOCH 18 / 50
+loss 0.0214: 100%|█████████████████████| 121/121 [01:06<00:00,  2.61s/it]
+using modified char embedding time it takes: 1187.372612
+EPOCH 19 / 50
+loss 0.0074: 100%|█████████████████████| 121/121 [01:02<00:00,  2.41s/it]
+using modified char embedding time it takes: 1250.9665459999999
+EPOCH 20 / 50
+loss 0.0227: 100%|█████████████████████| 121/121 [01:01<00:00,  2.34s/it]
+using modified char embedding time it takes: 1313.716878
+EPOCH 21 / 50
+loss 0.0062: 100%|█████████████████████| 121/121 [01:03<00:00,  2.51s/it]
+using modified char embedding time it takes: 1377.884128
+EPOCH 22 / 50
+loss 0.0196: 100%|█████████████████████| 121/121 [01:01<00:00,  2.35s/it]
+using modified char embedding time it takes: 1440.516993
+EPOCH 23 / 50
+loss 0.0055: 100%|█████████████████████| 121/121 [01:04<00:00,  2.43s/it]
+using modified char embedding time it takes: 1506.0035289999998
+EPOCH 24 / 50
+loss 0.0311: 100%|█████████████████████| 121/121 [01:05<00:00,  2.74s/it]
+using modified char embedding time it takes: 1572.0450629999998
+EPOCH 25 / 50
+loss 0.0047: 100%|█████████████████████| 121/121 [01:07<00:00,  2.43s/it]
+using modified char embedding time it takes: 1639.733959
+EPOCH 26 / 50
+loss 0.0045: 100%|█████████████████████| 121/121 [01:04<00:00,  2.54s/it]
+using modified char embedding time it takes: 1704.790902
+EPOCH 27 / 50
+loss 0.0062: 100%|█████████████████████| 121/121 [01:01<00:00,  2.35s/it]
+using modified char embedding time it takes: 1767.202617
+EPOCH 28 / 50
+loss 0.0027: 100%|█████████████████████| 121/121 [01:02<00:00,  2.44s/it]
+using modified char embedding time it takes: 1830.715771
+EPOCH 29 / 50
+loss 0.0031: 100%|█████████████████████| 121/121 [01:10<00:00,  2.86s/it]
+using modified char embedding time it takes: 1899.390489
+EPOCH 30 / 50
+loss 0.0105: 100%|█████████████████████| 121/121 [01:10<00:00,  3.19s/it]
+using modified char embedding time it takes: 1968.702734
+EPOCH 31 / 50
+loss 0.0055: 100%|█████████████████████| 121/121 [01:14<00:00,  2.77s/it]
+using modified char embedding time it takes: 2040.680964
+EPOCH 32 / 50
+loss 0.0230: 100%|█████████████████████| 121/121 [01:08<00:00,  2.51s/it]
+using modified char embedding time it takes: 2108.8633299999997
+EPOCH 33 / 50
+loss 0.0849: 100%|█████████████████████| 121/121 [01:03<00:00,  2.49s/it]
+using modified char embedding time it takes: 2172.641309
+EPOCH 34 / 50
+loss 0.0020: 100%|█████████████████████| 121/121 [01:01<00:00,  2.39s/it]
+using modified char embedding time it takes: 2235.640914
+EPOCH 35 / 50
+loss 0.0017: 100%|█████████████████████| 121/121 [01:01<00:00,  2.42s/it]
+using modified char embedding time it takes: 2298.29741
+EPOCH 36 / 50
+loss 0.0049: 100%|█████████████████████| 121/121 [01:07<00:00,  2.55s/it]
+using modified char embedding time it takes: 2366.120524
+EPOCH 37 / 50
+loss 0.0047: 100%|█████████████████████| 121/121 [01:04<00:00,  2.50s/it]
+using modified char embedding time it takes: 2431.381609
+EPOCH 38 / 50
+loss 0.0065: 100%|█████████████████████| 121/121 [01:06<00:00,  2.85s/it]
+using modified char embedding time it takes: 2497.84012
+EPOCH 39 / 50
+loss 0.0051: 100%|█████████████████████| 121/121 [01:10<00:00,  2.79s/it]
+using modified char embedding time it takes: 2567.548115
+EPOCH 40 / 50
+loss 0.0091: 100%|█████████████████████| 121/121 [01:09<00:00,  2.57s/it]
+using modified char embedding time it takes: 2636.854933
+EPOCH 41 / 50
+loss 0.0022: 100%|█████████████████████| 121/121 [01:05<00:00,  2.45s/it]
+using modified char embedding time it takes: 2703.273316
+EPOCH 42 / 50
+loss 0.0016: 100%|█████████████████████| 121/121 [01:02<00:00,  2.39s/it]
+using modified char embedding time it takes: 2766.7759189999997
+EPOCH 43 / 50
+loss 0.0065: 100%|█████████████████████| 121/121 [01:08<00:00,  2.44s/it]
+using modified char embedding time it takes: 2834.9085529999998
+EPOCH 44 / 50
+loss 0.0013: 100%|█████████████████████| 121/121 [01:02<00:00,  2.41s/it]
+using modified char embedding time it takes: 2898.570273
+EPOCH 45 / 50
+loss 0.0057: 100%|█████████████████████| 121/121 [01:04<00:00,  2.61s/it]
+using modified char embedding time it takes: 2963.954351
+EPOCH 46 / 50
+loss 0.0005: 100%|█████████████████████| 121/121 [01:06<00:00,  2.88s/it]
+using modified char embedding time it takes: 3029.810634
+EPOCH 47 / 50
+loss 0.0018: 100%|█████████████████████| 121/121 [01:10<00:00,  2.80s/it]
+using modified char embedding time it takes: 3098.762606
+EPOCH 48 / 50
+loss 0.0031: 100%|█████████████████████| 121/121 [01:07<00:00,  2.73s/it]
+using modified char embedding time it takes: 3165.763054
+EPOCH 49 / 50
+loss 0.0087: 100%|█████████████████████| 121/121 [01:07<00:00,  2.51s/it]
+using modified char embedding time it takes: 3233.363916
+EPOCH 50 / 50
+loss 0.0006: 100%|█████████████████████| 121/121 [01:07<00:00,  3.15s/it]
+using modified char embedding time it takes: 3299.2855569999997
